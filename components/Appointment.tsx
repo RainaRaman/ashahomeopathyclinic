@@ -107,7 +107,7 @@ function getAvailableTimeSlots(selectedDate: string): string[] {
 
 export default function Appointment() {
   const [submitted, setSubmitted] = useState(false);
-  const [selectedDate, setSelectedDate] = useState('');
+  // const [selectedDate, setSelectedDate] = useState('');
   const { register, handleSubmit, reset, formState: { errors }, watch } = useForm<AppointmentFormData>({
     mode: 'onChange',
   });
@@ -130,7 +130,7 @@ export default function Appointment() {
 
       setSubmitted(true);
       reset();
-      setSelectedDate('');
+      //setSelectedDate('');
       setTimeout(() => setSubmitted(false), 5000);
     } catch (error) {
       console.error('Error submitting appointment:', error);
