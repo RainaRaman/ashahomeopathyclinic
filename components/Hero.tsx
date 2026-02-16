@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FiArrowRight, FiUsers, FiAward, FiHeart } from 'react-icons/fi';
+import { FiArrowRight, FiHeart } from 'react-icons/fi';
 
 export default function Hero() {
   return (
