@@ -64,10 +64,10 @@ export default function Map() {
                 <div>
                   <h4 className="font-bold text-primary text-sm mb-1">Phone</h4>
                   <a
-                    href="tel:9999999999"
+                    href="tel:9370992333"
                     className="text-gray-700 hover:text-secondary transition-colors duration-300 font-semibold text-sm"
                   >
-                    +91 9999999999
+                    +91 9370992333
                   </a>
                 </div>
               </div>

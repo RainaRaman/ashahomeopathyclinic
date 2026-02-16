@@ -99,9 +99,9 @@ export default function TreatmentLayout({
                   <h3 className="text-2xl font-bold mb-6">Book Your Consultation</h3>
                   
                   <div className="space-y-4 mb-6">
-                    <a href="tel:+919999999999" className="flex items-center gap-3 hover:opacity-90 transition-opacity duration-300">
+                    <a href="tel:+919370992333" className="flex items-center gap-3 hover:opacity-90 transition-opacity duration-300">
                       <FiPhone className="w-5 h-5 flex-shrink-0" />
-                      <span>+91 9999999999</span>
+                      <span>+91 9370992333</span>
                     </a>
                     <button className="w-full flex items-center justify-center gap-2 bg-white text-primary hover:bg-light font-bold py-3 rounded-lg transition-colors duration-300">
                       <FiCalendar className="w-5 h-5" />

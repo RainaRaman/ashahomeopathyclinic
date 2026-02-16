@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FiMessageCircle } from 'react-icons/fi';
 
 export default function WhatsAppButton() {
-  const phoneNumber = process.env.NEXT_PUBLIC_CLINIC_WHATSAPP || '919999999999';
+  const phoneNumber = process.env.NEXT_PUBLIC_CLINIC_WHATSAPP || '919370992333';
   const message = encodeURIComponent(
     'Hello! I\'m interested in booking an appointment at Asha Homeopathy clinic. Please let me know the availability.'
   );

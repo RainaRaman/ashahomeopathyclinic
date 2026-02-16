@@ -179,7 +179,7 @@ export default function Appointment() {
             {/* Call to Action at Bottom */}
             <div className="mt-8 pt-6 border-t border-white/30 relative z-10">
               <p className="text-white/90 text-xs font-semibold tracking-wide mb-2 uppercase">📞 Need Help? Call Us</p>
-              <p className="text-xl md:text-2xl font-bold text-white">+91 9999999999</p>
+              <p className="text-xl md:text-2xl font-bold text-white">+91 9370992333</p>
             </div>
           </div>
 

@@ -58,7 +58,7 @@ export const doctorsData: Doctor[] = [
     image: '/images/doctors/ashish.png',
     degrees: 'BHMS, M.A. (Psychology), M.S. (Psychotherapy)',
     bio: 'Renowned homeopathy specialist with expertise in treating complex chronic conditions and psychological wellbeing. Known for technical acumen in expert diagnosis, integrating homeopathy with psychology and psychotherapy for comprehensive patient care.',
-    fullBio: 'Dr. Ashish Manapure is a homeopathic physician and mental health professional with more than 25 years of clinical experience in the field of chronic diseases and psychological wellbeing. With a strong foundation in both homeopathy and psychology, he provides integrated, holistic care that addresses the deepest aspects of health and wellness.',
+    fullBio: 'Dr. Ashish Manapure is a homeopathic physician and mental health professional with more than 25 years of clinical experience in the field of chronic diseases and psychological wellbeing. With qualifications in BHMS (Bachelor of Homeopathic Medicine and Surgery), M.A. (Psychology), and M.S. (Psychotherapy), he brings expertise in integrating homeopathy with psychology and psychotherapy. Dr. Ashish has worked in the Department of Psychiatry at Government Medical College (GMC), Nagpur, where he gained exposure to a wide spectrum of psychiatric and neurodevelopmental conditions. His holistic approach addresses both the physical and emotional dimensions of health.',
     clinicName: 'Asha Homeopathic Clinic, Nagpur',
     education: [
       {
@@ -174,9 +174,9 @@ export const doctorsData: Doctor[] = [
     yearsOfExperience: 25,
     slug: 'vaishali-manapure',
     image: '/images/doctors/vaishali.png',
-    degrees: 'BHMS, Postgraduate (Homeopathy-London), M.A. (Psychology), CGO',
+    degrees: 'BHMS, Postgraduate (Homeopathy), M.A. (Psychology), CGO',
     bio: 'Highly experienced homeopathic physician specializing in women\'s health and integrated wellness. Known for compassionate care combining science, sensitivity, and technical expertise in treating gynaecological, cosmetic, and psychological conditions with holistic homeopathic principles.',
-    fullBio: 'Dr. Vaishali Manapure is a highly experienced homeopathic physician with more than 25 years of clinical expertise. She holds a Bachelor of Homeopathic Medicine and Surgery (BHMS) and a Postgraduate qualification in Homeopathy from London, along with a Master\'s degree in Psychology. She is also a Certified Gynaecology and Obstetrics Practitioner (CGO) from Matru Seva Sangh, Nagpur. Over the course of her career, Dr. Vaishali has developed a deep understanding of both the physical and emotional aspects of health, offering compassionate, holistic care.',
+    fullBio: 'Dr. Vaishali Manapure is a highly experienced homeopathic physician with more than 25 years of clinical expertise. She holds a Bachelor of Homeopathic Medicine and Surgery (BHMS) and a Postgraduate qualification in Homeopathy from London, along with a Master\'s degree in Psychology. She is also a Certified Gynaecology and Obstetrics Practitioner (CGO) from Matru Seva Sangh, Nagpur. Over the course of her career, Dr. Vaishali has developed a deep understanding of both the physical and emotional aspects of health. Her areas of specialization include gynaecological disorders, cosmetic concerns, and counselling for various mental health and social issues. By integrating her psychological background with homeopathic principles, she offers compassionate, holistic care that addresses the root causes of illness rather than just the symptoms. Dr. Vaishali also has special expertise in Bach Flower Remedies, using these gentle, natural therapies to support emotional well-being and balance.',
     clinicName: 'Asha Homeopathic Clinic, Nagpur',
     education: [
       {
@@ -189,7 +189,7 @@ export const doctorsData: Doctor[] = [
       {
         degree: 'Postgraduate',
         field: 'Homeopathy',
-        university: 'London',
+        university: 'Nagpur',
         year: 'Completed',
         verified: false,
       },

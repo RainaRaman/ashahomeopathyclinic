@@ -39,3 +39,7 @@ jest-cache/
 # Misc
 *.tgz
 *.lock
+
+*.txt
+*.pdf
+*.md

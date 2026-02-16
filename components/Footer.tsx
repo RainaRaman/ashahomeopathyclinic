@@ -77,8 +77,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <FiPhone className="w-5 h-5 flex-shrink-0" />
-                <a href="tel:9999999999" className="text-white/90 text-sm hover:text-white transition-colors">
-                  9999999999
+                <a href="tel:9370992333" className="text-white/90 text-sm hover:text-white transition-colors">
+                  9370992333
                 </a>
               </div>
               <div className="flex items-center gap-3">

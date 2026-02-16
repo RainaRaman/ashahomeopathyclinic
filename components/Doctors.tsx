@@ -23,7 +23,7 @@ const doctors: DoctorCard[] = [
     experience: '25+ Years',
     degrees: 'BHMS, M.A. (Psychology), M.S. (Psychotherapy)',
     image: '/images/doctors/ashish.png',
-    bio: 'Renowned homeopathy specialist with expertise in treating complex chronic conditions and psychological wellbeing. Known for technical acumen in expert diagnosis, integrating homeopathy with psychology and psychotherapy for comprehensive patient care.',
+    bio: 'Expert in mental health counselling, child development, and neurodevelopmental issues. With GMC Nagpur psychiatry experience and training in Bach Flower Remedies, he integrates homeopathy, psychology, and psychotherapy for holistic care addressing stress, anxiety, ADHD, and emotional balance.',
     slug: 'ashish-manapure',
   },
   {
@@ -31,9 +31,9 @@ const doctors: DoctorCard[] = [
     name: 'Dr. Vaishali Manapure',
     specialization: 'Senior Homeopathy Physician & Gynaecology Specialist',
     experience: '25+ Years',
-    degrees: 'BHMS, Postgraduate (Homeopathy-London), M.A. (Psychology), CGO',
+    degrees: 'BHMS, Postgraduate Diploma in Homeopathy, M.A. (Psychology), CGO',
     image: '/images/doctors/vaishali.png',
-    bio: 'Highly experienced homeopathic physician specializing in women\'s health and integrated wellness. Known for compassionate care combining science, sensitivity, and technical expertise in treating gynaecological, cosmetic, and psychological conditions with holistic homeopathic principles.',
+    bio: 'Specializes in gynaecological disorders, cosmetic and skin concerns, and mental health counselling. With expertise in Bach Flower Remedies and psychological well-being, she combines science, sensitivity, and holistic principles to address root causes of illness for complete wellness.',
     slug: 'vaishali-manapure',
   },
 ];
@@ -53,16 +53,18 @@ export default function Doctors() {
               key={doctor.id}
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl card-hover transition-all duration-300"
             >
-              {/* Doctor Image */}
-              <div className="relative w-full h-96 bg-gradient-to-br from-primary to-secondary overflow-hidden">
-                <Image
-                  src={doctor.image}
-                  alt={doctor.name}
-                  width={400}
-                  height={400}
-                  className="w-full h-full object-cover"
-                  priority
-                />
+              {/* Doctor Image - Circular */}
+              <div className="relative pt-8 pb-6 bg-gradient-to-br from-primary/10 to-secondary/10 flex justify-center">
+                <div className="relative w-56 h-56 rounded-full overflow-hidden shadow-xl border-4 border-white bg-gradient-to-br from-primary to-secondary">
+                  <Image
+                    src={doctor.image}
+                    alt={doctor.name}
+                    width={256}
+                    height={256}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
+                </div>
               </div>
 
               {/* Doctor Info */}
